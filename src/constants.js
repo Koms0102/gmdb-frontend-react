@@ -1,1 +1,2 @@
-export const BASE = "https://gmdb-movie-svc.cfapps.io/gmdb/api/movies"
+export const BASE = "http://gmdb-dev1.robwing.com/api/movies"
+

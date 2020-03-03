@@ -21,8 +21,8 @@ function App() {
 
   return (<>
     <nav>
-      <Search setSearchQuery={setSearchQuery}/>
         <UserHeader />
+      <Search setSearchQuery={setSearchQuery}/>
     </nav>
     {!error ? (<NavigationContext.Provider value={{ dispatch, navigationState }}>
       <HomeButton />
